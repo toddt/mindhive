@@ -1,26 +1,13 @@
 #! /bin/bash
 
-function sad_env()
-{
-source ~/.env/.sad_environment
-}
-
 function mtbi_env()
 {
 source ~/.env/.mtbi_environment
 }
 
-function eegfmri_env()
+function fluid_env()
 {
-source ~/.env/.eegfmri_environment
+source ~/.env/.fluid_environment
 }
 
-function gates_env()
-{
-source ~/.env/.gates_environment
-}
 
-function efdev_env()
-{
-source ~/.env/.efdev_environment
-}
